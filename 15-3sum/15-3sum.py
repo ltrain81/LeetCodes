@@ -1,7 +1,6 @@
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         nums.sort()
-        print(nums)
         sums = []
         curSum = 0
         result = []
