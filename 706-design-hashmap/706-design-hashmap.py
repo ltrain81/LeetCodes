@@ -1,8 +1,8 @@
 class MyHashMap:
 
     def __init__(self):
-        self.MyHash = [[] for i in range(100)]
-        self.HashFunc = lambda x: x % 100
+        self.MyHash = [[] for i in range(1000)]
+        self.HashFunc = lambda x: x % 1000
         
     def put(self, key: int, value: int) -> None:
         place = self.HashFunc(key)
