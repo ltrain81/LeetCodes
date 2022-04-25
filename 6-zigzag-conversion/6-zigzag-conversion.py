@@ -26,7 +26,7 @@ class Solution:
             
         result = ""
         
-        print(zigzag)
+        #print(zigzag)
         for i in range(numRows):
             result += ''.join(zigzag[i])
             
