@@ -10,11 +10,11 @@ class Solution:
             if list1.val < list2.val:
                 cur.next = list1
                 #print(Next.val)
-                list1, cur = list1.next, list1
+                list1, cur = list1.next, cur.next
             else:
                 cur.next = list2
                 #print(Next.val)
-                list2, cur = list2.next, list2
+                list2, cur = list2.next, cur.next
         
         if list1:
             cur.next = list1
